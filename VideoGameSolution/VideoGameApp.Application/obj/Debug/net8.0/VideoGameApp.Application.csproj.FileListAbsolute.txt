@@ -1,0 +1,12 @@
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\bin\Debug\net8.0\VideoGameApp.Application.deps.json
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\bin\Debug\net8.0\VideoGameApp.Application.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\bin\Debug\net8.0\VideoGameApp.Application.pdb
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.AssemblyInfoInputs.cache
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.AssemblyInfo.cs
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.csproj.CoreCompileInputs.cache
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.sourcelink.json
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\refint\VideoGameApp.Application.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.pdb
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\ref\VideoGameApp.Application.dll

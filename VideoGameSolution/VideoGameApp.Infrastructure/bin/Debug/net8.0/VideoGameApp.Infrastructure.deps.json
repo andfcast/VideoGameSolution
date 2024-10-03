@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VideoGameApp.Infrastructure/1.0.0": {
+        "dependencies": {
+          "VideoGameApp.Application": "1.0.0"
+        },
+        "runtime": {
+          "VideoGameApp.Infrastructure.dll": {}
+        }
+      },
+      "VideoGameApp.Application/1.0.0": {
+        "runtime": {
+          "VideoGameApp.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VideoGameApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VideoGameApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

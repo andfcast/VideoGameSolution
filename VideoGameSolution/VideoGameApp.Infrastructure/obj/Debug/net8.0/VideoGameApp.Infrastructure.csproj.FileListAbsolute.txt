@@ -1,0 +1,16 @@
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\bin\Debug\net8.0\VideoGameApp.Infrastructure.deps.json
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\bin\Debug\net8.0\VideoGameApp.Infrastructure.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\bin\Debug\net8.0\VideoGameApp.Infrastructure.pdb
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\bin\Debug\net8.0\VideoGameApp.Application.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\bin\Debug\net8.0\VideoGameApp.Application.pdb
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.csproj.AssemblyReference.cache
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.AssemblyInfoInputs.cache
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.AssemblyInfo.cs
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.sourcelink.json
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGam.A3ED07D3.Up2Date
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\refint\VideoGameApp.Infrastructure.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.pdb
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\ref\VideoGameApp.Infrastructure.dll
