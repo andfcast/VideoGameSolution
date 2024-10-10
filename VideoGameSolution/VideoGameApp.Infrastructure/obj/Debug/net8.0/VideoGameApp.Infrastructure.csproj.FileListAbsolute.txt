@@ -14,3 +14,7 @@ D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\refint\VideoGameApp.Infrastructure.dll
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.pdb
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\ref\VideoGameApp.Infrastructure.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\bin\Debug\net8.0\VideoGameApp.Infrastructure.runtimeconfig.json
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\obj\Debug\net8.0\VideoGameApp.Infrastructure.genruntimeconfig.cache
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\bin\Debug\net8.0\VideoGameApp.Domain.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Infrastructure\bin\Debug\net8.0\VideoGameApp.Domain.pdb

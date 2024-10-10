@@ -10,3 +10,7 @@ D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\ne
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\refint\VideoGameApp.Application.dll
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.pdb
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\ref\VideoGameApp.Application.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\bin\Debug\net8.0\VideoGameApp.Domain.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\bin\Debug\net8.0\VideoGameApp.Domain.pdb
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGameApp.Application.csproj.AssemblyReference.cache
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Application\obj\Debug\net8.0\VideoGam.8A9127E1.Up2Date

@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "VideoGameApp.Application/1.0.0": {
+        "dependencies": {
+          "VideoGameApp.Domain": "1.0.0"
+        },
         "runtime": {
           "VideoGameApp.Application.dll": {}
+        }
+      },
+      "VideoGameApp.Domain/1.0.0": {
+        "runtime": {
+          "VideoGameApp.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "VideoGameApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VideoGameApp.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
