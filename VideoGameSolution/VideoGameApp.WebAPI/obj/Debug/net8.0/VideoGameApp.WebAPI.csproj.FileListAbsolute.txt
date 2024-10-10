@@ -151,3 +151,4 @@ D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.WebAPI\bin\Debug\net8.0\
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.WebAPI\bin\Debug\net8.0\VideoGameApp.Domain.dll
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.WebAPI\bin\Debug\net8.0\VideoGameApp.Domain.pdb
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

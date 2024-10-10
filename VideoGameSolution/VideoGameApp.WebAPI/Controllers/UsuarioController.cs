@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using VideoGameApp.Application;
 using VideoGameApp.Domain.DTO;
 using VideoGameApp.Domain.Utils;
@@ -8,6 +9,7 @@ using VideoGameApp.Domain.Utils;
 namespace VideoGameApp.WebAPI.Controllers
 {
     [Route("api/[controller]")]
+    [AllowAnonymous]
     [ApiController]
     public class UsuarioController : ControllerBase
     {

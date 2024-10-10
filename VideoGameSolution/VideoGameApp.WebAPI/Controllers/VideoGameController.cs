@@ -1,18 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace VideoGameApp.WebAPI.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class VideoGameController : ControllerBase
     {
         // GET: api/<VideoGameController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IActionResult> ListarTodo()
         {
-            return new string[] { "value1", "value2" };
+            return Ok();
         }
 
         // GET api/<VideoGameController>/5

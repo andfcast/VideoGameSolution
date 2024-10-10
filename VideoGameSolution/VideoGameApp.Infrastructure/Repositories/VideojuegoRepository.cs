@@ -17,10 +17,9 @@ namespace VideoGameApp.Infrastructure.Repositories
         }
         public async Task<List<VideojuegoDto>> Listar()
         {
-            List<VideojuegoDto> lstVideojuegos = ConvertirAListaDto(_context.Videojuegos.ToList());            
+            List<VideojuegoDto> lstVideojuegos = ConvertirAListaDto(await _context.Videojuegos.ToListAsync());            
             return lstVideojuegos;
         }
-
 
         public async Task<ListaPaginada<VideojuegoDto>> ListaPaginada(int indicePagina, int regsPagina = 5)
         {

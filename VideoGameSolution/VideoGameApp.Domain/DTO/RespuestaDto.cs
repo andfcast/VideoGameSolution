@@ -9,6 +9,7 @@ namespace VideoGameApp.Domain.DTO
     public class RespuestaDto
     {
         public bool EsValido { get; set; }
-        public string Mensaje { get; set; }
+        public string Mensaje { get; set; }        
+        public dynamic Contenido { get; set; }
     }
 }
