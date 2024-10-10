@@ -21,7 +21,7 @@ namespace VideoGameApp.Infrastructure.Repositories
             return lstVideojuegos;
         }
 
-        public async Task<ListaPaginada<VideojuegoDto>> ListaPaginada(int indicePagina, int regsPagina = 5)
+        public async Task<ListaPaginada<VideojuegoDto>> ListaPaginada(BusquedaDto objDto, int indicePagina, int regsPagina = 5)
         {
             
             var videojuegos = await _context.Videojuegos

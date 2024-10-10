@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using VideoGameApp.Application;
+using VideoGameApp.Domain.DTO;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,9 +13,21 @@ namespace VideoGameApp.WebAPI.Controllers
     [ApiController]
     public class VideoGameController : ControllerBase
     {
+        private readonly IVideojuegoRepository _repository;
+
+        public VideoGameController(IVideojuegoRepository repository)
+        {
+            _repository = repository;
+        }
         // GET: api/<VideoGameController>
         [HttpGet]
         public async Task<IActionResult> ListarTodo()
+        {
+            return Ok(await _repository.Listar());
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Listar([FromBody] BusquedaDto objDto)
         {
             return Ok();
         }

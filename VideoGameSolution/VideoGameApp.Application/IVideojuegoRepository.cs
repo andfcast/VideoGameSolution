@@ -11,7 +11,7 @@ namespace VideoGameApp.Application
     public interface IVideojuegoRepository
     {
         Task<List<VideojuegoDto>> Listar();
-        Task<ListaPaginada<VideojuegoDto>> ListaPaginada(int indicePagina, int regsPagina);
+        Task<ListaPaginada<VideojuegoDto>> ListaPaginada(BusquedaDto objDto, int indicePagina, int regsPagina);
         Task<VideojuegoDto> ObtenerXId(int id);
         Task<RespuestaDto> Insertar(VideojuegoDto newPersona);
         Task<RespuestaDto> Actualizar(VideojuegoDto objPersona);

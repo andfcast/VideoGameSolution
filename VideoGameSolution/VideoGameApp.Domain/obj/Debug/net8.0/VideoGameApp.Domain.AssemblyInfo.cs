@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VideoGameApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14828225371acd310d45b670fe4b33c20b2e9ab9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2abc39442ab5c0b83642043f26f2437dc1dc225")]
 [assembly: System.Reflection.AssemblyProductAttribute("VideoGameApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VideoGameApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
