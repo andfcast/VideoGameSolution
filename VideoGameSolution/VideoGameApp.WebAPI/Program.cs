@@ -5,6 +5,9 @@ using VideoGameApp.Infrastructure.Context;
 using VideoGameApp.Infrastructure.Repositories;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using FluentValidation;
+using VideoGameApp.Domain.DTO;
+using VideoGameApp.Domain.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +24,9 @@ builder.Services.AddTransient<IVideojuegoRepository, VideojuegoRepository>();
 builder.Services.AddTransient<IRankingRepository, RankingRepository>();
 builder.Services.AddTransient<IAuthRepository, AuthRepository>();
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddTransient<IValidator<LoginDto>, LoginDtoValidator>();
+builder.Services.AddTransient<IValidator<RegistroUsuarioDto>, RegistroUsuarioDtoValidator>();
+builder.Services.AddTransient<IValidator<VideojuegoDto>, VideojuegoDtoValidator>();
 builder.Services.AddDbContext<VideoGameStoreDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnectionString"))
 );

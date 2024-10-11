@@ -26,35 +26,50 @@ namespace VideoGameApp.WebAPI.Controllers
             return Ok(await _repository.Listar());
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Listar([FromBody] BusquedaDto objDto)
+        [HttpPost]
+        public async Task<IActionResult> ListarXFiltro([FromBody] BusquedaDto objDto, int pagina)
         {
-            return Ok();
+            return Ok(await _repository.ListaPaginada(objDto,pagina));
         }
 
         // GET api/<VideoGameController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IActionResult> ObtenerXId(int id)
         {
-            return "value";
+            return Ok(await _repository.ObtenerXId(id));
         }
 
         // POST api/<VideoGameController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> InsertarNuevo([FromBody] VideojuegoDto dto)
         {
+            var respuesta = await _repository.Insertar(dto);
+            if (respuesta.EsValido)
+                return Ok(respuesta);
+            else
+                return BadRequest(respuesta);
         }
 
-        // PUT api/<VideoGameController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/<VideoGameController>
+        [HttpPut]
+        public async Task<IActionResult> Actualizar([FromBody] VideojuegoDto dto)
         {
+            var respuesta = await _repository.Actualizar(dto);
+            if (respuesta.EsValido)
+                return Ok(respuesta);
+            else
+                return BadRequest(respuesta);
         }
 
         // DELETE api/<VideoGameController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            var respuesta = await _repository.Borrar(id);
+            if (respuesta.EsValido)
+                return Ok(respuesta);
+            else
+                return BadRequest(respuesta);
         }
     }
 }
