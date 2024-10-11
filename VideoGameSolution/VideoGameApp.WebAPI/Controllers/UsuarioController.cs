@@ -12,7 +12,7 @@ using VideoGameApp.Domain.Validators;
 
 namespace VideoGameApp.WebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [AllowAnonymous]
     [ApiController]
     public class UsuarioController : ControllerBase

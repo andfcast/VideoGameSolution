@@ -13,7 +13,7 @@ using VideoGameApp.WebAPI.Custom;
 
 namespace VideoGameApp.WebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [AllowAnonymous]
     [ApiController]
     public class AuthController : ControllerBase

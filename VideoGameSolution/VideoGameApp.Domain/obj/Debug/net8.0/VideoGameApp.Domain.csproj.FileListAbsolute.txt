@@ -10,3 +10,4 @@ D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Domain\obj\Debug\net8.0\
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Domain\obj\Debug\net8.0\refint\VideoGameApp.Domain.dll
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Domain\obj\Debug\net8.0\VideoGameApp.Domain.pdb
 D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Domain\obj\Debug\net8.0\ref\VideoGameApp.Domain.dll
+D:\Git\VideoGameSolution\VideoGameSolution\VideoGameApp.Domain\obj\Debug\net8.0\VideoGameApp.Domain.csproj.AssemblyReference.cache

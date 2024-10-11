@@ -8,7 +8,7 @@ using VideoGameApp.Domain.DTO;
 
 namespace VideoGameApp.WebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [Authorize]
     [ApiController]
     public class VideoGameController : ControllerBase
