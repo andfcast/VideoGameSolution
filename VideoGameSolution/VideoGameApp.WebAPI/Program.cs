@@ -27,6 +27,7 @@ builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddTransient<IValidator<LoginDto>, LoginDtoValidator>();
 builder.Services.AddTransient<IValidator<RegistroUsuarioDto>, RegistroUsuarioDtoValidator>();
 builder.Services.AddTransient<IValidator<VideojuegoDto>, VideojuegoDtoValidator>();
+builder.Services.AddTransient<IValidator<RankingRequestDto>, RankingRequestDtoValidator>();
 builder.Services.AddDbContext<VideoGameStoreDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnectionString"))
 );

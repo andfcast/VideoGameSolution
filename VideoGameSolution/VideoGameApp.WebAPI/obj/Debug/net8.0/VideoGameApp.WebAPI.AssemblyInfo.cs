@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VideoGameApp.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46514b7b28819988de5c5cc4e9b04784fe1f0190")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd2f631efd25839d1ae3d5f53f8548dfa2383811")]
 [assembly: System.Reflection.AssemblyProductAttribute("VideoGameApp.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VideoGameApp.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

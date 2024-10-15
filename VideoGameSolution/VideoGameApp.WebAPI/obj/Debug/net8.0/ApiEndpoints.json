@@ -2,7 +2,7 @@
   {
     "ContainingType": "VideoGameApp.WebAPI.Controllers.AuthController",
     "Method": "Login",
-    "RelativePath": "api/Auth",
+    "RelativePath": "api/Auth/Login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -17,125 +17,24 @@
   },
   {
     "ContainingType": "VideoGameApp.WebAPI.Controllers.RankingController",
-    "Method": "Get",
-    "RelativePath": "api/Ranking",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VideoGameApp.WebAPI.Controllers.RankingController",
-    "Method": "Post",
-    "RelativePath": "api/Ranking",
+    "Method": "GenerarRanking",
+    "RelativePath": "api/Ranking/GenerarRanking",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VideoGameApp.WebAPI.Controllers.RankingController",
-    "Method": "Get",
-    "RelativePath": "api/Ranking/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
+        "Name": "numeroTop",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VideoGameApp.WebAPI.Controllers.RankingController",
-    "Method": "Put",
-    "RelativePath": "api/Ranking/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "value",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VideoGameApp.WebAPI.Controllers.RankingController",
-    "Method": "Delete",
-    "RelativePath": "api/Ranking/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "VideoGameApp.WebAPI.Controllers.UsuarioController",
     "Method": "Registrar",
-    "RelativePath": "api/Usuario",
+    "RelativePath": "api/Usuario/Registrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
