@@ -1,0 +1,166 @@
+[
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objDto",
+        "Type": "VideoGameApp.Domain.DTO.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.RankingController",
+    "Method": "GenerarRanking",
+    "RelativePath": "api/Ranking/GenerarRanking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VideoGameApp.Domain.DTO.RankingRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.UsuarioController",
+    "Method": "Registrar",
+    "RelativePath": "api/Usuario/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objDto",
+        "Type": "VideoGameApp.Domain.DTO.RegistroUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.VideoGameController",
+    "Method": "Actualizar",
+    "RelativePath": "api/VideoGame/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VideoGameApp.Domain.DTO.VideojuegoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.VideoGameController",
+    "Method": "Delete",
+    "RelativePath": "api/VideoGame/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.VideoGameController",
+    "Method": "InsertarNuevo",
+    "RelativePath": "api/VideoGame/InsertarNuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VideoGameApp.Domain.DTO.VideojuegoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.VideoGameController",
+    "Method": "ListarTodo",
+    "RelativePath": "api/VideoGame/ListarTodo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.VideoGameController",
+    "Method": "ListarXFiltro",
+    "RelativePath": "api/VideoGame/ListarXFiltro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objDto",
+        "Type": "VideoGameApp.Domain.DTO.BusquedaDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.VideoGameController",
+    "Method": "ObtenerXId",
+    "RelativePath": "api/VideoGame/ObtenerXId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameApp.WebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VideoGameApp.WebAPI.WeatherForecast, VideoGameApp.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NHRmPyMJ3tQ8G/JO8SnxDcLG8i0efa1FA1OTNlkGyds=",
+  "Source": "VideoGameApp.WebAPI",
+  "BasePath": "_content/VideoGameApp.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
