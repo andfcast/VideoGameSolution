@@ -21,14 +21,14 @@ namespace VideoGameApp.Infrastructure.Repositories
         public async Task<RespuestaDto> Login(LoginDto dto)
         {
             RespuestaDto respuesta = new RespuestaDto();
-            var usuario = await _context.Usuarios.FirstAsync(x => x.NombreUsuario.ToLower() == dto.Usuario.ToLower() && x.Password == dto.Password);
-            if (usuario != null)
+            var usuario = await _context.Usuarios.Where(x => x.NombreUsuario.ToLower() == dto.Usuario.ToLower() && x.Password == dto.Password).ToListAsync();
+            if (usuario.Count > 0)
             {
                 respuesta.EsValido = true;
                 respuesta.Contenido = new UsuarioDto { 
-                    Id = usuario.Id,
-                    Email = usuario.Email,
-                    NombreUsuario = usuario.NombreUsuario
+                    Id = usuario.First().Id,
+                    Email = usuario.First().Email,
+                    NombreUsuario = usuario.First().NombreUsuario
                 };
             }
             else

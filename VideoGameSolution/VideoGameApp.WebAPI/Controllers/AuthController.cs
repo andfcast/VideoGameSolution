@@ -40,7 +40,11 @@ namespace VideoGameApp.WebAPI.Controllers
                 RespuestaDto respuesta = await _repository.Login(objDto);
                 if (respuesta.EsValido)
                 {
-                    RespuestaLoginDto resLogin = (RespuestaLoginDto)respuesta;
+                    RespuestaLoginDto resLogin = new RespuestaLoginDto { 
+                        Contenido = respuesta.Contenido,
+                        EsValido = true,
+                        Mensaje = respuesta.Mensaje
+                    };
                     resLogin.Token = _authGenerator.GenerarJwt((UsuarioDto)respuesta.Contenido);
                     return Ok(resLogin);
                 }

@@ -8,6 +8,7 @@ using System.Text;
 using FluentValidation;
 using VideoGameApp.Domain.DTO;
 using VideoGameApp.Domain.Validators;
+using VideoGameApp.WebAPI.Custom;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,7 @@ builder.Services.AddTransient<IValidator<LoginDto>, LoginDtoValidator>();
 builder.Services.AddTransient<IValidator<RegistroUsuarioDto>, RegistroUsuarioDtoValidator>();
 builder.Services.AddTransient<IValidator<VideojuegoDto>, VideojuegoDtoValidator>();
 builder.Services.AddTransient<IValidator<RankingRequestDto>, RankingRequestDtoValidator>();
+builder.Services.AddTransient<AuthGenerator>();
 builder.Services.AddDbContext<VideoGameStoreDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnectionString"))
 );

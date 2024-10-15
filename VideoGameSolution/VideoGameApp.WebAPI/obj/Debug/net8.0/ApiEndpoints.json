@@ -24,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "numeroTop",
-        "Type": "System.Int32",
+        "Name": "dto",
+        "Type": "VideoGameApp.Domain.DTO.RankingRequestDto",
         "IsRequired": true
       }
     ],
